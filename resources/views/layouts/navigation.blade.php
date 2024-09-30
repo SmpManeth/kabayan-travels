@@ -1,20 +1,29 @@
 <!-- Top Navigation Bar -->
-<nav x-data="{open:false}" class="bg-red-600 h-10 w-full flex items-center ">
+<nav x-data="{open:false}" class="h-10 w-full flex items-center" id="top-nav">
 
-    <div class="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 border border-white flex ">
-        
+    <div class="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8  flex ">
+
         <div class="w-1/5">
-            <a href="" class="text-white hover:underline " target="_blank"><i class="pr-2 fa-solid fa-phone" style="color: #ffffff;" aria-hidden="true"></i>0203-026-9529</a>
+            <a href="" class="text-white hover:underline " target="_blank">
+                <i class="pr-2 fa-solid fa-envelope" style="color: #ffffff;" aria-hidden="true"></i>
+                0203-026-9529
+            </a>
         </div>
 
         <div class="w-1/5">
-            <a href="" class="text-white hover:underline " target="_blank"><i class="pr-2 fa-solid fa-phone" style="color: #ffffff;" aria-hidden="true"></i>0203-026-9529</a>
+            <a href="" class="text-white hover:underline " target="_blank">
+                <i class="pr-2 fa-solid fa-phone" style="color: #ffffff;" aria-hidden="true"></i>
+                0203-026-9529
+            </a>
         </div>
 
         <div class="w-2/5"></div>
 
-        <div class="w-1/5">
-            <a href="" class="text-white hover:underline " target="_blank"><i class="pr-2 fa-solid fa-phone" style="color: #ffffff;" aria-hidden="true"></i>0203-026-9529</a>
+        <div class="w-1/5 text-right ">
+            <a href="" class="text-white hover:underline " target="_blank">
+                <i class="pr-2 fa-solid fa-phone" style="color: #ffffff;" aria-hidden="true"></i>
+                0203-026-9529
+            </a>
         </div>
     </div>
 
