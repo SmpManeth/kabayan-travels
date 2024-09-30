@@ -20,10 +20,10 @@
         <div class="w-2/5"></div>
 
         <div class="w-1/5 text-right ">
-            <a href="" class="text-white hover:underline " target="_blank">
-                <i class="pr-2 fa-solid fa-phone" style="color: #ffffff;" aria-hidden="true"></i>
-                0203-026-9529
-            </a>
+            <a href="tel:02030269529" class="text-white divide-slate-50 mr-1">Follow Us:</i></a>
+            <a href="https://www.facebook.com/bluelotusvacations" class="text-white divide-slate-50"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+            <a href="https://www.instagram.com/bluelotusvacationsuk/" class="text-white divide-slate-50 ml-2"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+            <a href="https://wa.me/+447392455120" class="text-white divide-slate-50 ml-2"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></a>
         </div>
     </div>
 
