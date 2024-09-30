@@ -25,6 +25,7 @@
 .border-yellow {
     border: 1px solid yellow !important;
 }
+/* Top nav backgroud color  */
 #top-nav {
     background: rgb(255, 13, 2);
     background: linear-gradient(
