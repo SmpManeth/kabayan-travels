@@ -16,14 +16,13 @@
                 <x-text-input id="multicity" type="radio" name="TripType" value="MT" class="lg:w-4 lg:h-4 w-3 h-3 border-red-900 focus:red-900" />
                 <x-input-label for="multicity" class="block ms-2  lg:text-sm text-[10px] font-medium text-gray-50" value="MULTI CITY" />
             </div>
-        </div>
-
-        <div class="flex items-center space-x-4 mb-5">
             <div class="flex items-center border border-white rounded-lg lg:py-2 lg:px-2 py-2 px-2 lg:border-[2px]">
                 <x-text-input id="IsDirectFlight" type="checkbox" name="IsDirectFlight" class="lg:w-4 lg:h-4 w-3 h-3 border-red-900 focus:red-900" />
                 <x-input-label for="IsDirectFlight" class="block ms-2  lg:text-sm text-[10px] font-medium text-gray-50" value=" Direct Flight" />
             </div>
         </div>
+
+        
     </div>
     <div class="xl:flex gap-2 ">
         <!-- origin  -->
