@@ -12,7 +12,20 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['"Inknut Antiqua"', 'serif'], // Default font
+                Yesteryear: ['Yesteryear', 'cursive'], // Custom font
+                Abhaya : ['Abhaya Libre', 'serif'], // Custom font
+
+
+            },
+            colors: {
+                'gradient-start': 'rgba(255, 13, 2, 1)',  // Starting color of your gradient
+                'gradient-end': 'rgba(29, 69, 130, 1)',   // Ending color of your gradient
+                'custom-font': '#ffffff',                // Font color, typically white or a contrasting color
+            },
+            backgroundImage: {
+                'custom-gradient': 'linear-gradient(90deg, rgba(255, 13, 2, 1) 0%, rgba(29, 69, 130, 1) 100%)',
+                'button-gradient': 'linear-gradient(90deg, rgba(255,13,2,1) 0%, rgba(142,7,0,1) 72%, rgba(128,6,0,1) 100%)',
             },
         },
     },
