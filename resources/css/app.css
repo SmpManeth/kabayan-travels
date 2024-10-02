@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom CSS */
 .border-red {
     border: 1px solid red !important;
 }
@@ -25,6 +26,7 @@
 .border-yellow {
     border: 1px solid yellow !important;
 }
+
 /* Top nav backgroud color  */
 #top-nav {
     
@@ -39,4 +41,25 @@
     background: linear-gradient(90deg, rgba(255, 13, 2, 1) 0%, rgba(29, 69, 130, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+/* Fligh Search Passenger Dropdown  */
+.custom-radio {
+    appearance: none;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 50%;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+}
+
+.custom-radio:checked {
+    background-color: #ff0d02;
+    /* Red color when selected */
+    border-color: #8e0700;
+    /* Optional: Border color to match */
+    /* add a outline below  */
+    box-shadow: 0 0 0 2px white inset;
+
 }
