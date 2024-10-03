@@ -123,7 +123,7 @@
                 <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-0 lg:px-6">
 
                     <div class="grid lg:gap-10 gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                        <div class="text-center text-gray-500">
+                        <div class="text-center ">
                             <img class="mx-auto mb-4 w-20 h-20 rounded-lg" src="https://bluelotusvacations.uk/images/refund_policy.webp"
                                 alt="Bonnie Avatar">
 
@@ -135,19 +135,15 @@
 
                         </div>
 
-                        <div class="text-center text-gray-500">
+                        <div class="text-center ">
                             <img class="mx-auto mb-4 w-20 h-20 rounded-lg"
                                 src="https://bluelotusvacations.uk/images/refund_policy.webp" alt="Bonnie Avatar">
 
-                            <h5 class="mb-1 text-2xl font-bold tracking-tight text-gray-900  font-playfairDisplay">
-                                Customer Support</h5>
-
-                            <span>Our Reliability, responsiveness, speed, unwavering commitment and support, result in
-                                an exceptional customer service experience for you.</span>
-
+                            <h5 class="mb-1 text-2xl font-bold tracking-tight text-gray-900  font-playfairDisplay">Local Lingo</h5>
+                            <span>Whether you speak Tagalog, Cebuano ,Ilocano, Bikol, or Bisaya Our experienced consultants will guide you through.</span>
                         </div>
 
-                        <div class="text-center text-gray-500">
+                        <div class="text-center ">
                             <img class="mx-auto mb-4 w-20 h-20 rounded-lg" src="https://bluelotusvacations.uk/images/refund_policy.webp"
                                 alt="Bonnie Avatar">
 
@@ -159,7 +155,7 @@
 
                         </div>
 
-                        <div class="text-center text-gray-500">
+                        <div class="text-center ">
                             <img class="mx-auto mb-4 w-20 h-20 rounded-lg"
                                 src="https://bluelotusvacations.uk/images/refund_policy.webp" alt="Bonnie Avatar">
 
@@ -170,8 +166,6 @@
                                 visit us at your convenience and share your travel dream with us. </span>
 
                         </div>
-
-
                     </div>
                 </div>
             </section>
@@ -186,7 +180,9 @@
                 <x-italic-subheading class="text-4xl font-medium" value="Trust the Process" />
 
             </div>
+
             <div class="elfsight-app-158d73ee-30cc-4bb6-9369-529292881a39" data-elfsight-app-lazy></div>
+
             <!-- Call Now Button (Centered) -->
             <div class="flex justify-center mt-20">
                 <button type="button" class="text-white bg-button-gradient focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center">
