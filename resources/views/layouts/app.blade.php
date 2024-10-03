@@ -28,7 +28,6 @@
     <div class="min-h-screen bg-[#FFFFFF]">
         @include('layouts.navigation')
 
-
         <!-- Page Content -->
         <main>
             {{ $slot }}
@@ -36,9 +35,13 @@
     </div>
 
     <!-- Fontawesome  -->
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
     <script src="https://kit.fontawesome.com/a23cd217c4.js" crossorigin="anonymous"></script>
+    <!-- Pro Font awesome  -->
+    <script src="https://kit.fontawesome.com/a10fc53a2c.js" crossorigin="anonymous"></script>
     <!-- Flowbite  -->
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    
 </body>
 
 </html>
