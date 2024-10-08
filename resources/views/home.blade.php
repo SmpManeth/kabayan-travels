@@ -2,14 +2,14 @@
     <!-- Body  -->
     <div class="m-0 p-0 ">
         <!-- Hero Section -->
-        <div class="bg-cover bg-center h-[700px]" style="background-image: url('{{ asset('images/bg-hero.png') }}');">
+        <div class="bg-cover bg-center sm:h-[700px] h-auto p-2" style="background-image: url('{{ asset('images/bg-hero.png') }}');">
             <div class="max-w-7xl mx-auto">
                 <!-- Hero Headings  -->
                 <div class="flex flex-col items-center justify-center py-12">
                     <!-- Sub Heading Componenet  -->
-                    <x-italic-subheading class="text-4xl font-medium" value="Explore the Philippines" />
+                    <x-italic-subheading class="text-3xl sm:text-4xl font-medium" value="Explore the Philippines" />
                     <!-- Heading  -->
-                    <h1 class="text-6xl font-Abhaya font-extrabold text-center text-black pt-10 leading-tight ">
+                    <h1 class="sm:text-6xl text-4xl font-Abhaya font-extrabold text-center text-black sm:pt-10 pt-4 leading-tight ">
                         Your Dream
                         <span class="gradient-text">Philippines</span> <br> Holiday Starts <br>
                         Here!
@@ -22,10 +22,10 @@
                 </div>
 
                 <!-- Hero Bottom Section  -->
-                <div class="flex  justify-between mt-12 ">
+                <div class="flex text-center  justify-between mt-16 ">
                     <div>
                         <i class="fa-solid fa-certificate" style="color: #ff0d02;"></i>
-                        <span>Easy & Fast - Book a Car in 120 minutes</span>
+                        <span>Easy & Secure Booking</span>
                     </div>
                     <div>
                         <i class="fa-solid fa-certificate" style="color: #ff0d02;"></i>
@@ -33,7 +33,7 @@
                     </div>
                     <div>
                         <i class="fa-solid fa-certificate" style="color: #ff0d02;"></i>
-                        <span>Choose from a Wide Variety of Packages</span>
+                        <span>Enjoy Instalment plans on Payments</span>
                     </div>
                 </div>
             </div>
@@ -43,43 +43,53 @@
         <!-- Language Stripe  -->
         <div class="bg-[#fffff]">
             <div class="max-w-6xl mx-auto">
-                <div class="flex justify-between py-3">
-                    <div class="flex items-center">
-                        <img src="{{ asset('images/phillipine-flag.png') }}" alt="phillipine-flag.png">
-                        <p class="gradient-text text-2xl ">Tagalog</p>
-                    </div>
-                    <div class="flex items-center">
-                        <img src="{{ asset('images/phillipine-flag.png') }}" alt="phillipine-flag.png">
-                        <p class="gradient-text text-2xl ">Cebuano</p>
-                    </div>
-                    <div class="flex items-center">
-                        <img src="{{ asset('images/phillipine-flag.png') }}" alt="phillipine-flag.png">
-                        <p class="gradient-text text-2xl ">Ilocano</p>
-                    </div>
-                    <div class="flex items-center">
-                        <img src="{{ asset('images/phillipine-flag.png') }}" alt="phillipine-flag.png">
-                        <p class="gradient-text text-2xl ">Bikol</p>
-                    </div>
-                    <div class="flex items-center">
-                        <img src="{{ asset('images/phillipine-flag.png') }}" alt="phillipine-flag.png">
-                        <p class="gradient-text text-2xl ">Bisaya</p>
-                    </div>
+                <div
+                    x-data="{}"
+                    x-init="$nextTick(() => {
+                        let ul = $refs.logos;
+                        ul.insertAdjacentHTML('afterend', ul.outerHTML);
+                        ul.nextSibling.setAttribute('aria-hidden', 'true');
+                    })"
+                    class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+                    <ul x-ref="logos" class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+                        <li class="flex items-center">
+                            <img src="{{ asset('images/phillipine-flag.png') }}" alt="phillipine-flag.png">
+                            <p class="gradient-text text-2xl ">Tagalog</p>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="{{ asset('images/phillipine-flag.png') }}" alt="phillipine-flag.png">
+                            <p class="gradient-text text-2xl ">Cebuano</p>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="{{ asset('images/phillipine-flag.png') }}" alt="phillipine-flag.png">
+                            <p class="gradient-text text-2xl ">Ilocano</p>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="{{ asset('images/phillipine-flag.png') }}" alt="phillipine-flag.png">
+                            <p class="gradient-text text-2xl ">Bikol</p>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="{{ asset('images/phillipine-flag.png') }}" alt="phillipine-flag.png">
+                            <p class="gradient-text text-2xl ">Bisaya</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
 
 
 
-        <!-- Amazing Featured Destinations -->
-        <div class="bg-cover bg-center h-[1400px] m-0 p-0" style="background-image: url('{{ asset('images/Amazing-Featured-Destinations.png') }}');">
+
+        <!-- Explore the Philippines -->
+        <div class="bg-cover bg-center h-[2300px] sm:h-[1400px] m-0 p-0 " style="background-image: url('{{ asset('images/Amazing-Featured-Destinations.png') }}');">
 
             <div class="p-0 m-0">
                 <!-- Headings -->
-                <div class="flex flex-col items-center justify-center pt-32">
+                <div class="flex flex-col items-center justify-center pt-12 sm:pt-32">
                     <!-- Sub Heading Component -->
-                    <x-italic-subheading class="text-4xl font-medium" value="Explore the Philippines" />
+                    <x-italic-subheading class="text-3xl sm:text-4xl font-medium" value="Explore the Philippines" />
                     <!-- Heading -->
-                    <h1 class="text-6xl font-Abhaya font-extrabold text-center text-black leading-tight ">
+                    <h1 class="sm:text-6xl text-4xl font-Abhaya font-extrabold text-center text-black leading-tight ">
                         Amazing Featured <br>
                         <span class="gradient-text font-normal font-Yesteryear">Air Fares</span>
                     </h1>
@@ -90,7 +100,7 @@
                     @foreach($flights as $flight)
                     <!-- card  -->
                     <div class="mx-auto">
-                        <x-featured-flight-card :flight=$flight :options=$options />
+                        <x-featured-flight-card :flight=$flight />
                     </div>
                     @endforeach
                 </div>
@@ -111,7 +121,7 @@
 
 
         <!-- Why Book With Us -->
-        <div class="mt-[-450px]">
+        <div class="sm:mt-[-450px] mt-[-180px] bg-white">
             <!-- Headings -->
             <div class="flex flex-col items-center justify-center pt-32">
                 <!-- Sub Heading Component -->
@@ -119,7 +129,7 @@
 
             </div>
 
-            <section class="pt-28">
+            <section class="sm:pt-28 pt-8">
                 <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-0 lg:px-6">
 
                     <div class="grid lg:gap-10 gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -174,16 +184,16 @@
         <!-- Reviews and trust  -->
         <div>
             <!-- Headings -->
-            <div class="flex flex-col items-center justify-center pt-32 pb-20">
+            <div class="flex flex-col items-center justify-center sm:pt-32 pt-16 sm:pb-20 pb-16">
                 <!-- Sub Heading Component -->
                 <x-italic-subheading class="text-4xl font-medium" value="Trust the Process" />
 
             </div>
 
-            <div class="elfsight-app-158d73ee-30cc-4bb6-9369-529292881a39" data-elfsight-app-lazy></div>
+            <div class="elfsight-app-158d73ee-30cc-4bb6-9369-529292881a39 p-4" data-elfsight-app-lazy></div>
 
             <!-- Call Now Button (Centered) -->
-            <div class="flex justify-center mt-20">
+            <div class="flex justify-center sm:mt-20 mt-10">
                 <button type="button" class="text-white bg-button-gradient focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center">
                     Call Us Now
                 </button>
@@ -196,24 +206,21 @@
             <!-- Headings -->
             <div class="flex flex-col items-center justify-center pt-32">
                 <!-- Sub Heading Component -->
-                <x-italic-subheading class="text-4xl font-medium" value="Next Adventure" />
+                <x-italic-subheading class="text-4xl font-medium " value="Next Adventure" />
                 <!-- Heading -->
-                <h1 class="text-6xl font-Abhaya font-extrabold text-center text-black leading-tight ">
+                <h1 class="sm:text-6xl text-4xl font-Abhaya font-extrabold text-center text-black leading-tight mt-5">
                     Holiday Destinations <br>
                     available Worldwide
                 </h1>
-                <p class="w-4/12 text-center font-normal text-sm">We have compiled a list of top destinations across the globe, scoured the world
-                    for the most alluring and fascinating places to visit. From the beautiful beaches
-                    of the Caribbean to the majestic mountains of Europe and the vibrant cities of
-                    Asia, our destination list has something for everyone.</p>
+                <p class="p-4 sm:w-6/12 text-center font-normal text-sm">Our holidays promise a haven of relaxation and adventure, where the worries of planning and budgeting melt away. Picture yourself unwinding on sun-drenched beaches, savoring exquisite cuisine, and indulging in a wealth of activities all included in the package. At Kabayan Flights, we believe that your only job on vacation should be to enjoy every moment to the fullest. Embark on a journey where luxury meets convenience, and every experience is a celebration of indulgence. Join us on a holiday where all you need to do is bask in the joy of the moment, surrounded by the beauty and comfort that define our Holiday getaways. </p>
             </div>
 
             <!-- Cards  -->
             <div>
-                <div class="flex mx-auto flex-wrap w-fit gap-4 max-w-7xl mt-10">
+                <div class="flex mx-auto flex-wrap w-fit gap-4 max-w-7xl mt-10 sm:mt-0">
                     <section class="py-12">
                         <div class="container mx-auto">
-                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-4">
 
                                 <x-holiday-destination description="This is a Sample Description" title="This is teh Title hutto" image="https://img.freepik.com/free-photo/vertical-high-angle-shot-white-buildings-santorini-greece_181624-31643.jpg?t=st=1728375392~exp=1728378992~hmac=c9d9fe99d66d6adab49624fe7dd90b8a8b8834661e5bc424d1a3637a6b8aa8d9&w=740" />
                                 <x-holiday-destination description="This is a Sample Description" title="This is teh Title hutto" image="https://img.freepik.com/free-photo/vertical-high-angle-shot-white-buildings-santorini-greece_181624-31643.jpg?t=st=1728375392~exp=1728378992~hmac=c9d9fe99d66d6adab49624fe7dd90b8a8b8834661e5bc424d1a3637a6b8aa8d9&w=740" />
@@ -235,7 +242,7 @@
         </div>
 
         <!-- We Care for you -->
-        <div class="">
+        <div class="p-4">
             <!-- Headings -->
             <div class="flex flex-col items-center justify-center pt-32">
                 <!-- Sub Heading Component -->
@@ -247,7 +254,7 @@
             <!-- Cards  -->
             <div class="flex mx-auto flex-wrap w-fit gap-4 max-w-7xl mt-10">
                 <div class=""><img src="{{asset('images/image45.png')}}" alt=""></div>
-                <div><img class="mt-20" src="{{asset('images/image35.png')}}" alt=""></div>
+                <div><img class="sm:mt-20" src="{{asset('images/image35.png')}}" alt=""></div>
             </div>
             <!-- Call Now Button (Centered) -->
             <div class="flex justify-center mt-10">
@@ -265,15 +272,15 @@
                 <!-- Sub Heading Component -->
                 <x-italic-subheading class="text-4xl font-medium" value="Next Adventure" />
                 <!-- Heading -->
-                <h1 class="text-6xl font-Abhaya font-extrabold text-center text-black leading-tight ">Great Opportunity For <br>
+                <h1 class="sm:text-6xl text-4xl font-Abhaya font-extrabold text-center text-black leading-tight ">Great Opportunity For <br>
                     <span class="gradient-text">Adventure</span> & Travels
                 </h1>
             </div>
 
             <!-- Cards  -->
-            <div class="flex mx-auto flex-wrap w-fit gap-4 max-w-7xl mt-10">
-                <div class="">
-                    <iframe class="w-[250px] h-[450px] rounded-lg pointer-events-none"
+            <div class="flex mx-auto flex-wrap w-fit gap-4 max-w-7xl mt-10 just p-4">
+                <div class="mx-auto">
+                    <iframe class="sm:w-[250px] sm:h-[450px] w-[160px] h-[290px] rounded-lg pointer-events-none"
                         src="https://www.youtube.com/embed/1N_Fofh7h6A?autoplay=1&controls=0&loop=1&playlist=1N_Fofh7h6A&mute=1&modestbranding=1&rel=0"
                         title="YouTube video"
                         frameborder="0"
@@ -282,8 +289,8 @@
                     </iframe>
                 </div>
 
-                <div class="">
-                    <iframe class="w-[250px] h-[450px] rounded-lg pointer-events-none"
+                <div class="mx-auto">
+                    <iframe class="sm:w-[250px] sm:h-[450px] w-[160px] h-[290px] rounded-lg pointer-events-none"
                         src="https://www.youtube.com/embed/1N_Fofh7h6A?autoplay=1&controls=0&loop=1&playlist=1N_Fofh7h6A&mute=1&modestbranding=1&rel=0"
                         title="YouTube video"
                         frameborder="0"
@@ -292,8 +299,8 @@
                     </iframe>
                 </div>
 
-                <div class="">
-                    <iframe class="w-[250px] h-[450px] rounded-lg pointer-events-none"
+                <div class="mx-auto">
+                    <iframe class="sm:w-[250px] sm:h-[450px] w-[160px] h-[290px] rounded-lg pointer-events-none"
                         src="https://www.youtube.com/embed/1N_Fofh7h6A?autoplay=1&controls=0&loop=1&playlist=1N_Fofh7h6A&mute=1&modestbranding=1&rel=0"
                         title="YouTube video"
                         frameborder="0"
@@ -302,8 +309,8 @@
                     </iframe>
                 </div>
 
-                <div class="">
-                    <iframe class="w-[250px] h-[450px] rounded-lg pointer-events-none"
+                <div class="mx-auto">
+                    <iframe class="sm:w-[250px] sm:h-[450px] w-[160px] h-[290px] rounded-lg pointer-events-none"
                         src="https://www.youtube.com/embed/1N_Fofh7h6A?autoplay=1&controls=0&loop=1&playlist=1N_Fofh7h6A&mute=1&modestbranding=1&rel=0"
                         title="YouTube video"
                         frameborder="0"
@@ -325,5 +332,5 @@
 
 
     </div>
-    
+
 </x-app-layout>

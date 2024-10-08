@@ -19,6 +19,15 @@ export default {
 
 
             },
+            animation: {
+                'infinite-scroll': 'infinite-scroll 25s linear infinite',
+            },
+            keyframes: {
+                'infinite-scroll': {
+                    from: { transform: 'translateX(0)' },
+                    to: { transform: 'translateX(-100%)' },
+                }
+            }  ,
             colors: {
                 'gradient-start': 'rgba(255, 13, 2, 1)',  // Starting color of your gradient
                 'gradient-end': 'rgba(29, 69, 130, 1)',   // Ending color of your gradient
