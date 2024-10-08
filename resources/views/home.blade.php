@@ -81,7 +81,7 @@
 
 
         <!-- Explore the Philippines -->
-        <div class="bg-cover bg-center h-[2300px] sm:h-[1400px] m-0 p-0 " style="background-image: url('{{ asset('images/Amazing-Featured-Destinations.png') }}');">
+        <div class="bg-  bg-center h-[2300px] sm:h-[1400px] m-0 p-0 " style="background-image: url('{{ asset('images/Amazing-Featured-Destinations.png') }}');">
 
             <div class="p-0 m-0">
                 <!-- Headings -->
@@ -121,7 +121,7 @@
 
 
         <!-- Why Book With Us -->
-        <div class="sm:mt-[-450px] mt-[-180px] bg-white">
+        <div class="sm:mt-[-250px] mt-[-180px] bg-white">
             <!-- Headings -->
             <div class="flex flex-col items-center justify-center pt-32">
                 <!-- Sub Heading Component -->
@@ -281,7 +281,7 @@
             <div class="flex mx-auto flex-wrap w-fit gap-4 max-w-7xl mt-10 just p-4">
                 <div class="mx-auto">
                     <iframe class="sm:w-[250px] sm:h-[450px] w-[160px] h-[290px] rounded-lg pointer-events-none"
-                        src="https://www.youtube.com/embed/1N_Fofh7h6A?autoplay=1&controls=0&loop=1&playlist=1N_Fofh7h6A&mute=1&modestbranding=1&rel=0"
+                        src="https://www.youtube.com/embed/n-8rCcaAg1M?autoplay=1&controls=0&loop=1&playlist=n-8rCcaAg1M&mute=1&modestbranding=1&rel=0"
                         title="YouTube video"
                         frameborder="0"
                         allow="autoplay; encrypted-media"
@@ -291,7 +291,7 @@
 
                 <div class="mx-auto">
                     <iframe class="sm:w-[250px] sm:h-[450px] w-[160px] h-[290px] rounded-lg pointer-events-none"
-                        src="https://www.youtube.com/embed/1N_Fofh7h6A?autoplay=1&controls=0&loop=1&playlist=1N_Fofh7h6A&mute=1&modestbranding=1&rel=0"
+                        src="https://www.youtube.com/embed/n-8rCcaAg1M?autoplay=1&controls=0&loop=1&playlist=n-8rCcaAg1M&mute=1&modestbranding=1&rel=0"
                         title="YouTube video"
                         frameborder="0"
                         allow="autoplay; encrypted-media"
@@ -301,7 +301,7 @@
 
                 <div class="mx-auto">
                     <iframe class="sm:w-[250px] sm:h-[450px] w-[160px] h-[290px] rounded-lg pointer-events-none"
-                        src="https://www.youtube.com/embed/1N_Fofh7h6A?autoplay=1&controls=0&loop=1&playlist=1N_Fofh7h6A&mute=1&modestbranding=1&rel=0"
+                        src="https://www.youtube.com/embed/13VKoWxeB6o?autoplay=1&controls=0&loop=1&playlist=13VKoWxeB6o&mute=1&modestbranding=1&rel=0"
                         title="YouTube video"
                         frameborder="0"
                         allow="autoplay; encrypted-media"
@@ -311,7 +311,7 @@
 
                 <div class="mx-auto">
                     <iframe class="sm:w-[250px] sm:h-[450px] w-[160px] h-[290px] rounded-lg pointer-events-none"
-                        src="https://www.youtube.com/embed/1N_Fofh7h6A?autoplay=1&controls=0&loop=1&playlist=1N_Fofh7h6A&mute=1&modestbranding=1&rel=0"
+                        src="https://www.youtube.com/embed/lzzcvKvpUhs?autoplay=1&controls=0&loop=1&playlist=lzzcvKvpUhs&mute=1&modestbranding=1&rel=0"
                         title="YouTube video"
                         frameborder="0"
                         allow="autoplay; encrypted-media"
