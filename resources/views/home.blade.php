@@ -81,7 +81,7 @@
 
 
         <!-- Explore the Philippines -->
-        <div class="bg-  bg-center h-[2300px] sm:h-[1400px] m-0 p-0 " style="background-image: url('{{ asset('images/Amazing-Featured-Destinations.png') }}');">
+        <div class="bg-cover  bg-center h-[2300px] sm:h-[1400px] m-0 p-0 " style="background-image: url('{{ asset('images/Amazing-Featured-Destinations.png') }}');">
 
             <div class="p-0 m-0">
                 <!-- Headings -->
