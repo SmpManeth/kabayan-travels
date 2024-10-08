@@ -38,7 +38,7 @@
                 </div>
             </div>
         </div>
-        <!-- Hero Section End -->
+
 
         <!-- Language Stripe  -->
         <div class="bg-[#fffff]">
@@ -67,7 +67,7 @@
                 </div>
             </div>
         </div>
-        <!-- Language Stripe End -->
+
 
 
         <!-- Amazing Featured Destinations -->
@@ -107,10 +107,10 @@
 
 
         </div>
-        <!-- Amazing Featured Destinations End -->
 
 
 
+        <!-- Why Book With Us -->
         <div class="mt-[-450px]">
             <!-- Headings -->
             <div class="flex flex-col items-center justify-center pt-32">
@@ -169,10 +169,9 @@
                     </div>
                 </div>
             </section>
-
-           
         </div>
 
+        <!-- Reviews and trust  -->
         <div>
             <!-- Headings -->
             <div class="flex flex-col items-center justify-center pt-32 pb-20">
@@ -192,6 +191,139 @@
         </div>
 
 
+        <!-- Next Adventure -->
+        <div class="">
+            <!-- Headings -->
+            <div class="flex flex-col items-center justify-center pt-32">
+                <!-- Sub Heading Component -->
+                <x-italic-subheading class="text-4xl font-medium" value="Next Adventure" />
+                <!-- Heading -->
+                <h1 class="text-6xl font-Abhaya font-extrabold text-center text-black leading-tight ">
+                    Holiday Destinations <br>
+                    available Worldwide
+                </h1>
+                <p class="w-4/12 text-center font-normal text-sm">We have compiled a list of top destinations across the globe, scoured the world
+                    for the most alluring and fascinating places to visit. From the beautiful beaches
+                    of the Caribbean to the majestic mountains of Europe and the vibrant cities of
+                    Asia, our destination list has something for everyone.</p>
+            </div>
+
+            <!-- Cards  -->
+            <div>
+                <div class="flex mx-auto flex-wrap w-fit gap-4 max-w-7xl mt-10">
+                    <section class="py-12">
+                        <div class="container mx-auto">
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                                <x-holiday-destination description="This is a Sample Description" title="This is teh Title hutto" image="https://img.freepik.com/free-photo/vertical-high-angle-shot-white-buildings-santorini-greece_181624-31643.jpg?t=st=1728375392~exp=1728378992~hmac=c9d9fe99d66d6adab49624fe7dd90b8a8b8834661e5bc424d1a3637a6b8aa8d9&w=740" />
+                                <x-holiday-destination description="This is a Sample Description" title="This is teh Title hutto" image="https://img.freepik.com/free-photo/vertical-high-angle-shot-white-buildings-santorini-greece_181624-31643.jpg?t=st=1728375392~exp=1728378992~hmac=c9d9fe99d66d6adab49624fe7dd90b8a8b8834661e5bc424d1a3637a6b8aa8d9&w=740" />
+                                <x-holiday-destination description="This is a Sample Description" title="This is teh Title hutto" image="https://img.freepik.com/free-photo/vertical-high-angle-shot-white-buildings-santorini-greece_181624-31643.jpg?t=st=1728375392~exp=1728378992~hmac=c9d9fe99d66d6adab49624fe7dd90b8a8b8834661e5bc424d1a3637a6b8aa8d9&w=740" />
+                                <x-holiday-destination description="This is a Sample Description" title="This is teh Title hutto" image="https://img.freepik.com/free-photo/vertical-high-angle-shot-white-buildings-santorini-greece_181624-31643.jpg?t=st=1728375392~exp=1728378992~hmac=c9d9fe99d66d6adab49624fe7dd90b8a8b8834661e5bc424d1a3637a6b8aa8d9&w=740" />
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!-- Call Now Button (Centered) -->
+            <div class="flex justify-center mt-5">
+                <button type="button" class="text-white bg-button-gradient focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center">
+                    Call Us Now
+                </button>
+            </div>
+
+        </div>
+
+        <!-- We Care for you -->
+        <div class="">
+            <!-- Headings -->
+            <div class="flex flex-col items-center justify-center pt-32">
+                <!-- Sub Heading Component -->
+                <x-italic-subheading class="text-4xl font-medium" value="We Care for you" />
+                <!-- Heading -->
+                <h1 class="text-6xl font-Abhaya font-extrabold text-center text-black leading-tight ">Save on your Flights Now</h1>
+            </div>
+
+            <!-- Cards  -->
+            <div class="flex mx-auto flex-wrap w-fit gap-4 max-w-7xl mt-10">
+                <div class=""><img src="{{asset('images/image45.png')}}" alt=""></div>
+                <div><img class="mt-20" src="{{asset('images/image35.png')}}" alt=""></div>
+            </div>
+            <!-- Call Now Button (Centered) -->
+            <div class="flex justify-center mt-10">
+                <button type="button" class="text-white bg-button-gradient focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center">
+                    Call Us Now
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Next Adventure -->
+        <div class="">
+            <!-- Headings -->
+            <div class="flex flex-col items-center justify-center pt-32">
+                <!-- Sub Heading Component -->
+                <x-italic-subheading class="text-4xl font-medium" value="Next Adventure" />
+                <!-- Heading -->
+                <h1 class="text-6xl font-Abhaya font-extrabold text-center text-black leading-tight ">Great Opportunity For <br>
+                    <span class="gradient-text">Adventure</span> & Travels
+                </h1>
+            </div>
+
+            <!-- Cards  -->
+            <div class="flex mx-auto flex-wrap w-fit gap-4 max-w-7xl mt-10">
+                <div class="">
+                    <iframe class="w-[250px] h-[450px] rounded-lg pointer-events-none"
+                        src="https://www.youtube.com/embed/1N_Fofh7h6A?autoplay=1&controls=0&loop=1&playlist=1N_Fofh7h6A&mute=1&modestbranding=1&rel=0"
+                        title="YouTube video"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="">
+                    <iframe class="w-[250px] h-[450px] rounded-lg pointer-events-none"
+                        src="https://www.youtube.com/embed/1N_Fofh7h6A?autoplay=1&controls=0&loop=1&playlist=1N_Fofh7h6A&mute=1&modestbranding=1&rel=0"
+                        title="YouTube video"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="">
+                    <iframe class="w-[250px] h-[450px] rounded-lg pointer-events-none"
+                        src="https://www.youtube.com/embed/1N_Fofh7h6A?autoplay=1&controls=0&loop=1&playlist=1N_Fofh7h6A&mute=1&modestbranding=1&rel=0"
+                        title="YouTube video"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="">
+                    <iframe class="w-[250px] h-[450px] rounded-lg pointer-events-none"
+                        src="https://www.youtube.com/embed/1N_Fofh7h6A?autoplay=1&controls=0&loop=1&playlist=1N_Fofh7h6A&mute=1&modestbranding=1&rel=0"
+                        title="YouTube video"
+                        frameborder="0"
+                        allow="autoplay; encrypted-media"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+            </div>
+            <!-- Call Now Button (Centered) -->
+            <div class="flex justify-center mt-10">
+                <button type="button" class="text-white bg-button-gradient focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center">
+                    Call Us Now
+                </button>
+            </div>
+
+        </div>
+
+
 
     </div>
+    
 </x-app-layout>

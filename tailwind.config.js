@@ -15,6 +15,7 @@ export default {
                 sans: ['"Inknut Antiqua"', 'serif'], // Default font
                 Yesteryear: ['Yesteryear', 'cursive'], // Custom font
                 Abhaya : ['Abhaya Libre', 'serif'], // Custom font
+                popins : ['Poppins', 'sans-serif'], // Custom font
 
 
             },
