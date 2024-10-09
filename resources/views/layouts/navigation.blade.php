@@ -10,14 +10,14 @@
             </a>
         </div>
 
-        <div class="w-1/5">
+        <div class="w-2/5">
             <a href="" class="text-white hover:underline " target="_blank">
                 <i class="pr-2 fa-solid fa-phone" style="color: #ffffff;" aria-hidden="true"></i>
-                0203-026-9529
+                info@kabayanflights.com.
             </a>
         </div>
 
-        <div class="w-2/5"></div>
+        <div class="w-1/5"></div>
 
         <div class="w-1/5 text-right ">
             <a href="tel:02030269529" class="text-white divide-slate-50 mr-1">Follow Us:</i></a>
