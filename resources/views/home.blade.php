@@ -9,7 +9,7 @@
                 Your browser does not support the video tag.
             </video>
             <!-- Overlay -->
-            <div class="absolute top-0 left-0 w-full h-full bg-white opacity-0 z-5"></div>
+            <div class="absolute top-0 left-0 w-full h-full bg-black opacity-10 z-5"></div>
             <div class="relative z-10 max-w-7xl mx-auto">
                 <!-- Hero Headings  -->
                 <div class="flex flex-col items-center justify-center py-12">
@@ -129,7 +129,7 @@
 
 
         <!-- Why Book With Us -->
-        <div class="sm:mt-[-250px] mt-[-180px] bg-white">
+        <div class="sm:mt-[-500px] mt-[-180px] bg-white">
             <!-- Headings -->
             <div class="flex flex-col items-center justify-center pt-32">
                 <!-- Sub Heading Component -->
