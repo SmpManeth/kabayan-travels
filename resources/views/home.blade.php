@@ -9,14 +9,14 @@
                 Your browser does not support the video tag.
             </video>
             <!-- Overlay -->
-            <div class="absolute top-0 left-0 w-full h-full bg-white opacity-75 z-5"></div>
+            <div class="absolute top-0 left-0 w-full h-full bg-white opacity-0 z-5"></div>
             <div class="relative z-10 max-w-7xl mx-auto">
                 <!-- Hero Headings  -->
                 <div class="flex flex-col items-center justify-center py-12">
                     <!-- Sub Heading Component -->
-                    <x-italic-subheading class="text-3xl sm:text-4xl font-medium" value="Explore the Philippines" />
+                    <x-italic-subheading class="text-3xl sm:text-6xl font-medium" value="Explore the Philippines" />
                     <!-- Heading  -->
-                    <h1 class="sm:text-6xl text-4xl font-Abhaya font-extrabold text-center text-black sm:pt-10 pt-4 leading-tight">
+                    <h1 class="sm:text-6xl text-4xl font-Abhaya font-extrabold text-center text-white sm:pt-10 pt-4 leading-tight">
                         Your Dream
                         <span class="gradient-text">Philippines</span> <br> Holiday Starts <br>
                         Here!
@@ -29,7 +29,7 @@
                 </div>
 
                 <!-- Hero Bottom Section -->
-                <div class="flex text-center justify-between mt-16">
+                <div class="flex text-center justify-between mt-16 text-white">
                     <div>
                         <i class="fa-solid fa-certificate" style="color: #ff0d02;"></i>
                         <span>Easy & Secure Booking</span>
@@ -299,7 +299,7 @@
 
                 <div class="mx-auto">
                     <iframe class="sm:w-[250px] sm:h-[450px] w-[160px] h-[290px] rounded-lg pointer-events-none"
-                        src="https://www.youtube.com/embed/n-8rCcaAg1M?autoplay=1&controls=0&loop=1&playlist=n-8rCcaAg1M&mute=1&modestbranding=1&rel=0"
+                        src="https://www.youtube.com/embed/n5ok9C4YgMQ?autoplay=1&controls=0&loop=1&playlist=n5ok9C4YgMQ&mute=1&modestbranding=1&rel=0"
                         title="YouTube video"
                         frameborder="0"
                         allow="autoplay; encrypted-media"
