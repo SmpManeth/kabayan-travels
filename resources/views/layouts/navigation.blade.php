@@ -1,5 +1,5 @@
 <!-- Top Navigation Bar -->
-<nav x-data="{open:false}" class="h-10 w-full flex items-center hidden sm:block" id="top-nav">
+<nav x-data="{open:false}" class="h-10 w-full flex items-center hidden sm:flex" id="top-nav">
 
     <div class="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8  flex ">
 
