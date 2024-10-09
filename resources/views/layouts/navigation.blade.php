@@ -56,12 +56,12 @@
                 </x-nav-link>
             </div>
             <div>
-                <x-nav-link :href="route('dashboard')" :active="request()->routeIs('home')">
+                <x-nav-link :href="'https://bluelotusvacations.uk/popular-flights'" :active="request()->routeIs('dashboard')">
                     {{ __('Flights') }}
                 </x-nav-link>
             </div>
             <div>
-                <x-nav-link :href="route('dashboard')" :active="request()->routeIs('home')">
+                <x-nav-link :href="'https://bluelotusvacations.uk/featured-holidays'" :active="request()->routeIs('dashboard')">
                     {{ __('Holidays') }}
                 </x-nav-link>
             </div>
