@@ -2,14 +2,21 @@
     <!-- Body  -->
     <div class="m-0 p-0 ">
         <!-- Hero Section -->
-        <div class="bg-cover bg-center sm:h-[700px] h-auto p-2" style="background-image: url('{{ asset('images/bg-hero.png') }}');">
-            <div class="max-w-7xl mx-auto">
+        <div class="relative sm:h-[700px] h-auto p-2">
+            <!-- Video Background -->
+            <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover">
+                <source src="{{ asset('videos/Kabayan-Website-Cover-Video.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <!-- Overlay -->
+            <div class="absolute top-0 left-0 w-full h-full bg-white opacity-75 z-5"></div>
+            <div class="relative z-10 max-w-7xl mx-auto">
                 <!-- Hero Headings  -->
                 <div class="flex flex-col items-center justify-center py-12">
-                    <!-- Sub Heading Componenet  -->
+                    <!-- Sub Heading Component -->
                     <x-italic-subheading class="text-3xl sm:text-4xl font-medium" value="Explore the Philippines" />
                     <!-- Heading  -->
-                    <h1 class="sm:text-6xl text-4xl font-Abhaya font-extrabold text-center text-black sm:pt-10 pt-4 leading-tight ">
+                    <h1 class="sm:text-6xl text-4xl font-Abhaya font-extrabold text-center text-black sm:pt-10 pt-4 leading-tight">
                         Your Dream
                         <span class="gradient-text">Philippines</span> <br> Holiday Starts <br>
                         Here!
@@ -21,8 +28,8 @@
                     <x-flight-search-form />
                 </div>
 
-                <!-- Hero Bottom Section  -->
-                <div class="flex text-center  justify-between mt-16 ">
+                <!-- Hero Bottom Section -->
+                <div class="flex text-center justify-between mt-16">
                     <div>
                         <i class="fa-solid fa-certificate" style="color: #ff0d02;"></i>
                         <span>Easy & Secure Booking</span>
@@ -38,6 +45,7 @@
                 </div>
             </div>
         </div>
+
 
 
         <!-- Language Stripe  -->
