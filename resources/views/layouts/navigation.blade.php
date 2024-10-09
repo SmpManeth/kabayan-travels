@@ -13,7 +13,7 @@
         <div class="w-2/5">
             <a href="" class="text-white hover:underline " target="_blank">
                 <i class="pr-2 fa-solid fa-phone" style="color: #ffffff;" aria-hidden="true"></i>
-                info@kabayanflights.com.
+                info@kabayanflights.com
             </a>
         </div>
 
@@ -56,12 +56,12 @@
                 </x-nav-link>
             </div>
             <div>
-                <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                <x-nav-link :href="route('dashboard')" :active="request()->routeIs('home')">
                     {{ __('Flights') }}
                 </x-nav-link>
             </div>
             <div>
-                <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                <x-nav-link :href="route('dashboard')" :active="request()->routeIs('home')">
                     {{ __('Holidays') }}
                 </x-nav-link>
             </div>
