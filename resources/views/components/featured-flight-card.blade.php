@@ -1,11 +1,10 @@
 @props([
-'flight',
-'options',
+'flight'
 ])
 
 <div class="grid grid-cols-1 lg:h-[472px] rounded-xl lg:w-[300px] w-[300px] border border-[#D81324] border-2 lg:ml-0">
     <div class="border-b-[#D81324] border-b-[1px] rounded-t-xl relative overflow-hidden h-[160px] w-full">
-        <img src="{{ asset($flight['assets']['file_path']) }}" alt="" class="absolute pb-[35px] inset-0 w-[220px] h-[200px] lg:ml-10 ml-10 object-cover p-3">
+        <img src="{{ asset($flight['assets']['file_path']) }}" alt="" class="absolute pb-[35px] inset-0 w-[220px] h-[200px] lg:ml-10 ml-10 object-contain p-3">
     </div>
 
     <div class="grid grid-cols-2 p-2 max-h-[60px] min-h-[60px]">
@@ -26,7 +25,7 @@
                 <i class="fa-sharp-duotone fa-solid fa-plane-departure text-xl mr-2" style="color: #D81324;"></i>
                 <div>
                     <div class="text-xs text-gray-500">DEPARTING</div>
-                    <div class="text-xs font-bold">{{$options['from_date']}}</div>
+                    <div class="text-xs font-bold">{{$flight['from_date']}}</div>
                 </div>
             </div>
 
@@ -54,7 +53,7 @@
                 <i class="fa-solid fa-plane-arrival text-xl mr-2" style="color: #D81324;"></i>
                 <div>
                     <div class="text-xs text-gray-500">RETURNING</div>
-                    <div class="text-xs font-bold">{{$options['to_date']}}</div>
+                    <div class="text-xs font-bold">{{$flight['to_date']}}</div>
                 </div>
             </div>
 
@@ -68,21 +67,4 @@
         </div>
     </div>
 
-    <div class="pt-3 flex justify-center items-center pb-3">
-        <form action="#" method="GET" class="whitespace-nowrap inline-flex items-center lg:px-[110px] px-[110px] py-3 text-lg font-medium text-white rounded-2xl bg-[#D81324] hover:bg-[#830600] focus:ring-4 focus:ring-primary-300">
-            <div class="hidden">
-                <input type="hidden" name="presetSearch" value="presetSearch">
-                <input name="TripType" type="text" id="TripType" value="RT" class="">
-                <input name="Origin" type="text" id="Origin" value="{{ $flight['origin_airport'] }}" class="">
-                <input name="Destination" type="text" id="Destination" value="{{ $flight['destination_airport'] }}" class="">
-                <input name="DepartDate" type="text" id="DepartDate" value="{{ $options['from_date'] }}" class="">
-                <input name="ArrivalDate" type="text" id="ArrivalDate" value="{{ $options['to_date'] }}" class="">
-                <input name="NoOfAdultPax" type="text" id="NoOfAdultPax" value="1" class="">
-                <input name="NoOfChildPax" type="text" id="NoOfChildPax" value="0" class="">
-                <input name="NoOfInfantPax" type="text" id="NoOfInfantPax" value="0" class="">
-                <input name="Class" type="text" id="class" value="{{ $flight['cabin_class'] }}" class="">
-            </div>
-            <button type="submit">BOOK</button>
-        </form>
-    </div>
 </div>

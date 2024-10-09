@@ -1,26 +1,22 @@
-<footer class="bg-white dark:bg-gray-900 mt-10">
+<footer class="bg-red-100 dark:bg-gray-900 mt-10">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
                 <a href="{{ route('dashboard') }}">
-                    <x-application-logo class="block h-10 w-auto fill-current text-gray-800" />
+                    <x-application-logo class="block h-15 m-0 p-0 w-auto fill-current text-gray-800" />
                 </a>
-                <p>Lorem, ipsum dolor sit amet consectetur <br>
-                    adipisicing elit. Eaque nihil nobis <br>
-                    consequuntur suscipit nesciunt obcaecatibr== <br>
-                    repudiandae, odit id. Fugiat expedita dolor molestiae <br>
-                    consectetur? Doloremque, nesciunt distinctio. <br>
-                    Aperiam quod reprehenderit facere.</p>
+                <p class="w-[350px] sm:pt-5" >Discover insider guides travelling to the Philippines & create memorable experiences. Make a plan, & book at Kabayan Flights. 
+                "Get the best deal on your next trip to the Philippines  with Kabayan Flights. We offer affordable and cheap flights to destinations around the world. Book your Tickets today!</p>
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
-                            <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                            <a href="http://bluelotusvacations.uk/" class="hover:underline">Flowbite</a>
                         </li>
                         <li>
-                            <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                            <a href="http://bluelotusvacations.uk/" class="hover:underline">Tailwind CSS</a>
                         </li>
                     </ul>
                 </div>
@@ -49,8 +45,8 @@
             </div>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.
+        <div class="sm:flex flex items-center justify-between">
+            <span class="text-sm text-red-500 text-center dark:text-gray-400">© 2024 <a href="http://bluelotusvacations.uk/" class="hover:underline">Bluelotus Vacations</a>. All Rights Reserved.
             </span>
             <div class="flex mt-4 sm:justify-center sm:mt-0">
                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">

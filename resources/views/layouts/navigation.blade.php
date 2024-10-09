@@ -1,5 +1,5 @@
 <!-- Top Navigation Bar -->
-<nav x-data="{open:false}" class="h-10 w-full flex items-center" id="top-nav">
+<nav x-data="{open:false}" class="h-10 w-full flex items-center hidden sm:block" id="top-nav">
 
     <div class="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8  flex ">
 
@@ -35,11 +35,11 @@
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <!-- Logo  -->
         <a href="{{ route('dashboard') }}">
-            <x-application-logo class="block h-10 w-auto fill-current text-gray-800" />
+            <x-application-logo class="block h-12 sm:h-10 w-auto fill-current text-gray-800" />
         </a>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <!-- Call Now Button  -->
-            <button type="button" class="text-white bg-button-gradient focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center ">Call Us Now</button>
+            <button type="button" class="text-white hidden sm:block bg-button-gradient focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center ">Call Us Now</button>
             <!-- hamburger Menu  -->
             <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>

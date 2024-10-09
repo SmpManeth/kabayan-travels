@@ -32,53 +32,52 @@ class HomeController extends Controller
                 'assets' => [
                     'file_path' => 'images/airchina-logo.png',
                 ],
-                'destination_city' => 'New York',
+                'destination_city' => 'Manila',
                 'origin_city' => 'London',
-                'price' => 450,
+                'price' => 525,
                 'cabin_class' => 'economy',
-                'origin_airport' => 'LHR',
-                'destination_airport' => 'JFK',
+                'from_date' => '05 MAY -2025',
+                'to_date' => '20 May 2025'
             ],
             [
                 'assets' => [
-                    'file_path' => 'images/airchina-logo.png',
+                    'file_path' => 'images/Qatar-logo.png',
                 ],
-                'destination_city' => 'Paris',
+                'destination_city' => 'Clark  ',
                 'origin_city' => 'London',
-                'price' => 350,
-                'cabin_class' => 'premium',
-                'origin_airport' => 'LHR',
-                'destination_airport' => 'CDG',
-            ], [
-                'assets' => [
-                    'file_path' => 'images/airchina-logo.png',
-                ],
-                'destination_city' => 'Paris',
-                'origin_city' => 'London',
-                'price' => 350,
-                'cabin_class' => 'premium',
-                'origin_airport' => 'LHR',
-                'destination_airport' => 'CDG',
+                'price' => 699,
+                'cabin_class' => 'economy',
+                'from_date' => '05 MAY -2025',
+                'to_date' => '20 May 2025'
             ],
             [
                 'assets' => [
-                    'file_path' => 'images/airchina-logo.png',
+                    'file_path' => 'images/Emirates-logo.png',
                 ],
-                'destination_city' => 'Tokyo',
+                'destination_city' => 'Cebu  ',
                 'origin_city' => 'London',
-                'price' => 1200,
-                'cabin_class' => 'business',
-                'origin_airport' => 'LHR',
-                'destination_airport' => 'HND',
+                'price' => 799,
+                'cabin_class' => 'economy',
+                'from_date' => '05 MAY -2025',
+                'to_date' => '20 May 2025'
             ],
+            [
+                'assets' => [
+                    'file_path' => 'images/Malaysian-logo.png',
+                ],
+                'destination_city' => 'Manila',
+                'origin_city' => 'London',
+                'price' => 728,
+                'cabin_class' => 'economy',
+                'from_date' => '05 MAY -2025',
+                'to_date' => '20 May 2025'
+            ],
+            
         ];
 
 
-        $options = [
-            'from_date' => '2024-11-10',
-            'to_date' => '2024-11-20',
-        ];
-        return view('home', compact('flights', 'options'));
+
+        return view('home', compact('flights'));
     }
 
     /**
