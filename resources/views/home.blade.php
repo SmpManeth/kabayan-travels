@@ -9,7 +9,7 @@
                 Your browser does not support the video tag.
             </video>
             <!-- Overlay -->
-            <div class="absolute top-0 left-0 w-full h-full bg-black opacity-10 z-5"></div>
+            <div class="absolute top-0 left-0 w-full h-full bg-black opacity-15 z-5"></div>
             <div class="relative z-10 max-w-7xl mx-auto">
                 <!-- Hero Headings  -->
                 <div class="flex flex-col items-center justify-center py-12">
