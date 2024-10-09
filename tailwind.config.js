@@ -12,7 +12,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['"Poppins"', 'serif'], // Default font
+                sans: ['"Abhaya Libre"', 'serif'], // Default font
                 Yesteryear: ['Yesteryear', 'cursive'], // Custom font
                 Abhaya : ['Abhaya Libre', 'serif'], // Custom font
                 popins : ['Poppins', 'sans-serif'], // Custom font

@@ -49,7 +49,7 @@
             </button>
         </div>
         <!-- Menu Links  -->
-        <div class="items-center gap-12 justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <div class="items-center text-lg gap-12 justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
             <div>
                 <x-nav-link :href="route('home')" :active="request()->routeIs('home')">
                     {{ __('Home') }}

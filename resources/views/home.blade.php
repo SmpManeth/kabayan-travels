@@ -29,7 +29,7 @@
                 </div>
 
                 <!-- Hero Bottom Section -->
-                <div class="flex text-center justify-between mt-16 text-white">
+                <div class="flex text-center text-lg justify-between mt-16 text-white">
                     <div>
                         <i class="fa-solid fa-certificate" style="color: #ff0d02;"></i>
                         <span>Easy & Secure Booking</span>
@@ -142,27 +142,27 @@
 
                     <div class="grid lg:gap-10 gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                         <div class="text-center ">
-                            <img class="mx-auto mb-4 w-20 h-20 rounded-lg" src="https://bluelotusvacations.uk/images/refund_policy.webp"
+                            <img class="mx-auto mb-4 w-20 h-20 rounded-lg" src="{{ asset('images/Refund-Policy-01.png') }}"
                                 alt="Bonnie Avatar">
 
                             <h5 class="mb-1 text-2xl font-bold tracking-tight text-gray-900  font-playfairDisplay">
                                 Refund Policy</h5>
 
-                            <span>As a customer-oriented travel agency we stand out in regard to the refund policy. We
+                            <span class="">As a customer-oriented travel agency we stand out in regard to the refund policy. We
                                 have a hassle-free refund procedure to make life easy for you. </span>
 
                         </div>
 
                         <div class="text-center ">
                             <img class="mx-auto mb-4 w-20 h-20 rounded-lg"
-                                src="https://bluelotusvacations.uk/images/refund_policy.webp" alt="Bonnie Avatar">
+                                src="{{ asset('images/Customer-Support.png') }}" alt="Bonnie Avatar">
 
                             <h5 class="mb-1 text-2xl font-bold tracking-tight text-gray-900  font-playfairDisplay">Local Lingo</h5>
                             <span>Whether you speak Tagalog, Cebuano ,Ilocano, Bikol, or Bisaya Our experienced consultants will guide you through.</span>
                         </div>
 
                         <div class="text-center ">
-                            <img class="mx-auto mb-4 w-20 h-20 rounded-lg" src="https://bluelotusvacations.uk/images/refund_policy.webp"
+                            <img class="mx-auto mb-4 w-20 h-20 rounded-lg" src="{{ asset('images/Reliability.png') }}"
                                 alt="Bonnie Avatar">
 
                             <h5 class="mb-1 text-2xl font-bold tracking-tight text-gray-900  font-playfairDisplay">
@@ -175,7 +175,7 @@
 
                         <div class="text-center ">
                             <img class="mx-auto mb-4 w-20 h-20 rounded-lg"
-                                src="https://bluelotusvacations.uk/images/refund_policy.webp" alt="Bonnie Avatar">
+                                src="{{ asset('images/Local-Travel-Agent.png') }}" alt="Bonnie Avatar">
 
                             <h5 class="mb-1 text-2xl font-bold tracking-tight text-gray-900  font-playfairDisplay">Local
                                 Travel Agent</h5>
@@ -220,7 +220,7 @@
                     Holiday Destinations <br>
                     available Worldwide
                 </h1>
-                <p class="p-4 sm:w-6/12 text-center font-normal text-sm">Our holidays promise a haven of relaxation and adventure, where the worries of planning and budgeting melt away. Picture yourself unwinding on sun-drenched beaches, savoring exquisite cuisine, and indulging in a wealth of activities all included in the package. At Kabayan Flights, we believe that your only job on vacation should be to enjoy every moment to the fullest. Embark on a journey where luxury meets convenience, and every experience is a celebration of indulgence. Join us on a holiday where all you need to do is bask in the joy of the moment, surrounded by the beauty and comfort that define our Holiday getaways. </p>
+                <p class="p-4 sm:w-6/12 text-center font-normal text-base">Our holidays promise a haven of relaxation and adventure, where the worries of planning and budgeting melt away. Picture yourself unwinding on sun-drenched beaches, savoring exquisite cuisine, and indulging in a wealth of activities all included in the package. At Kabayan Flights, we believe that your only job on vacation should be to enjoy every moment to the fullest. Embark on a journey where luxury meets convenience, and every experience is a celebration of indulgence. Join us on a holiday where all you need to do is bask in the joy of the moment, surrounded by the beauty and comfort that define our Holiday getaways. </p>
             </div>
 
             <!-- Cards  -->
