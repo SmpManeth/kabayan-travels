@@ -257,6 +257,8 @@
                 <x-italic-subheading class="text-4xl font-medium" value="We Care for you" />
                 <!-- Heading -->
                 <h1 class="text-6xl font-Abhaya font-extrabold text-center text-black leading-tight ">Save on your Flights Now</h1>
+                <p class="p-4 sm:w-6/12 text-center font-normal text-base">Unlock exclusive travel discounts for NHS and Blue Light Card members across the UK! We celebrate your dedication and hard work by offering special deals on flights, hotels, and holiday packages. Whether you're planning a well-deserved getaway or a weekend retreat, our tailored discounts make it easier and more affordable. Enjoy breathtaking destinations, relaxing accommodations, and unforgettable experiences, all while taking advantage of your membership perks. Join us in exploring the world with savings that reflect your commitment to serving others. Your next adventure awaits—because you deserve it!</p>
+
             </div>
 
             <!-- Cards  -->
