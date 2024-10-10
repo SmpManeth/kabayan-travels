@@ -230,10 +230,10 @@
                         <div class="container mx-auto">
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-4">
 
-                                <x-holiday-destination description="Magical Paris" title="Disneyland" image="https://img.freepik.com/free-photo/vertical-high-angle-shot-white-buildings-santorini-greece_181624-31643.jpg?t=st=1728375392~exp=1728378992~hmac=c9d9fe99d66d6adab49624fe7dd90b8a8b8834661e5bc424d1a3637a6b8aa8d9&w=740" />
-                                <x-holiday-destination description="land of Fire & Ice" title="Iceland" image="https://img.freepik.com/free-photo/vertical-high-angle-shot-white-buildings-santorini-greece_181624-31643.jpg?t=st=1728375392~exp=1728378992~hmac=c9d9fe99d66d6adab49624fe7dd90b8a8b8834661e5bc424d1a3637a6b8aa8d9&w=740" />
-                                <x-holiday-destination description="Stunning Krakow" title="Krakow" image="https://img.freepik.com/free-photo/vertical-high-angle-shot-white-buildings-santorini-greece_181624-31643.jpg?t=st=1728375392~exp=1728378992~hmac=c9d9fe99d66d6adab49624fe7dd90b8a8b8834661e5bc424d1a3637a6b8aa8d9&w=740" />
-                                <x-holiday-destination description="Bansko Ski Escape" title="Bulgaria" image="https://img.freepik.com/free-photo/vertical-high-angle-shot-white-buildings-santorini-greece_181624-31643.jpg?t=st=1728375392~exp=1728378992~hmac=c9d9fe99d66d6adab49624fe7dd90b8a8b8834661e5bc424d1a3637a6b8aa8d9&w=740" />
+                                <x-holiday-destination description="Magical Paris" title="Disneyland" image="{{asset('images/disneyland.jpg')}}" />
+                                <x-holiday-destination description="land of Fire & Ice" title="Iceland" image="{{asset('images/iceland.jpg')}}" />
+                                <x-holiday-destination description="Stunning Krakow" title="Krakow" image="{{asset('images/krakow.jpg')}}" />
+                                <x-holiday-destination description="Bansko Ski Escape" title="Bulgaria" image="{{asset('images/bulgaria.jpg')}}" />
 
                             </div>
                         </div>
