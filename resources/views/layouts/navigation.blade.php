@@ -1,14 +1,7 @@
 <!-- Top Navigation Bar -->
-<nav x-data="{open:false}" class="h-10 w-full flex items-center hidden sm:block" id="top-nav">
+<nav x-data="{open:false}" class="h-10 w-full flex items-center hidden sm:flex" id="top-nav">
 
     <div class="max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8  flex ">
-
-        <div class="w-1/5">
-            <a href="" class="text-white hover:underline " target="_blank">
-                <i class="pr-2 fa-solid fa-envelope" style="color: #ffffff;" aria-hidden="true"></i>
-                0203-026-9529
-            </a>
-        </div>
 
         <div class="w-1/5">
             <a href="" class="text-white hover:underline " target="_blank">
@@ -17,7 +10,14 @@
             </a>
         </div>
 
-        <div class="w-2/5"></div>
+        <div class="w-2/5">
+            <a href="" class="text-white hover:underline " target="_blank">
+                <i class="pr-2 fa-solid fa-envelope " style="color: #ffffff;" aria-hidden="true"></i>
+                info@kabayanflights.com
+            </a>
+        </div>
+
+        <div class="w-1/5"></div>
 
         <div class="w-1/5 text-right ">
             <a href="tel:02030269529" class="text-white divide-slate-50 mr-1">Follow Us:</i></a>
@@ -49,19 +49,19 @@
             </button>
         </div>
         <!-- Menu Links  -->
-        <div class="items-center gap-12 justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <div class="items-center text-lg gap-12 justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
             <div>
                 <x-nav-link :href="route('home')" :active="request()->routeIs('home')">
                     {{ __('Home') }}
                 </x-nav-link>
             </div>
             <div>
-                <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                <x-nav-link :href="'https://bluelotusvacations.uk/popular-flights'" :active="request()->routeIs('dashboard')">
                     {{ __('Flights') }}
                 </x-nav-link>
             </div>
             <div>
-                <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                <x-nav-link :href="'https://bluelotusvacations.uk/featured-holidays'" :active="request()->routeIs('dashboard')">
                     {{ __('Holidays') }}
                 </x-nav-link>
             </div>

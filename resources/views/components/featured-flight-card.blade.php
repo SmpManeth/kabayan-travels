@@ -10,11 +10,11 @@
     <div class="grid grid-cols-2 p-2 max-h-[60px] min-h-[60px]">
         <div class="ml-4">
             <div class="text-lg text-[#D81324] font-bold">{{ $flight['destination_city'] }}</div>
-            <div class="text-xs text-gray-500">RETURN FLIGHT</div>
+            <div class="text-base text-gray-500">RETURN FLIGHT</div>
         </div>
 
         <div class="ml-10">
-            <div class="text-xs">AVG/PERSON</div>
+            <div class="text-base">AVG/PERSON</div>
             <div class="text-gray-500 text-[12px]"><span class="">FR</span> <span class="text-lg font-bold text-[#D81324]">£ {{ $flight['price'] }}</span></div>
         </div>
     </div>
@@ -24,25 +24,25 @@
             <div class="flex ml-4 mt-5">
                 <i class="fa-sharp-duotone fa-solid fa-plane-departure text-xl mr-2" style="color: #D81324;"></i>
                 <div>
-                    <div class="text-xs text-gray-500">DEPARTING</div>
-                    <div class="text-xs font-bold">{{$flight['from_date']}}</div>
+                    <div class="text-base text-gray-500">DEPARTING</div>
+                    <div class="text-base font-bold">{{$flight['from_date']}}</div>
                 </div>
             </div>
 
             <div class="flex ml-4 mt-8">
                 <i class="fa-solid fa-seat-airline text-xl mr-2" style="color: #D81324;"></i>
                 <div>
-                    <div class="text-xs text-gray-500">CABIN TYPE</div>
+                    <div class="text-base text-gray-500">CABIN TYPE</div>
                     @if($flight['cabin_class'] == 'economy')
-                    <div class="text-xs font-bold">ECONOMY</div>
+                    <div class="text-base font-bold">ECONOMY</div>
                     @elseif($flight['cabin_class'] == 'premium')
-                    <div class="text-xs font-bold">PREMIUM ECONOMY CLASS</div>
+                    <div class="text-base font-bold">PREMIUM ECONOMY CLASS</div>
                     @elseif($flight['cabin_class'] == 'business')
-                    <div class="text-xs font-bold">BUSINESS CLASS</div>
+                    <div class="text-base font-bold">BUSINESS CLASS</div>
                     @elseif($flight['cabin_class'] == 'first')
-                    <div class="text-xs font-bold">FIRST CLASS</div>
+                    <div class="text-base font-bold">FIRST CLASS</div>
                     @else
-                    <div class="text-xs font-bold">ECONOMY</div>
+                    <div class="text-base font-bold">ECONOMY</div>
                     @endif
                 </div>
             </div>
@@ -52,16 +52,16 @@
             <div class="flex ml-4 mt-4">
                 <i class="fa-solid fa-plane-arrival text-xl mr-2" style="color: #D81324;"></i>
                 <div>
-                    <div class="text-xs text-gray-500">RETURNING</div>
-                    <div class="text-xs font-bold">{{$flight['to_date']}}</div>
+                    <div class="text-base text-gray-500">RETURNING</div>
+                    <div class="text-base font-bold">{{$flight['to_date']}}</div>
                 </div>
             </div>
 
             <div class="flex ml-4 mt-8">
             <i class="fa-solid fa-location-dot text-xl mr-2" style="color: #D81324;"></i>
                 <div>
-                    <div class="text-xs text-gray-500">DEPARTURE</div>
-                    <div class="text-xs font-bold">{{ $flight['origin_city'] }}</div>
+                    <div class="text-base text-gray-500">DEPARTURE</div>
+                    <div class="text-base font-bold">{{ $flight['origin_city'] }}</div>
                 </div>
             </div>
         </div>

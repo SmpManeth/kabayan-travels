@@ -1,8 +1,8 @@
-<form action="#" method="GET" class="bg-red-500 bg-opacity-60 sm:px-5 px-3 py-6 rounded-lg">
+<form action="#" method="GET" class="bg-red-500 bg-opacity-60 sm:px-5 px-3 py-6 rounded-lg ">
     @csrf
     <div class="">
         <!-- trip types OW/RT/MC -->
-        <div class="flex flex-wrap justify-center sm:justify-start sm:items-start w-full items-center sm:space-x-4 mb-3">
+        <div class="flex flex-wrap justify-center sm:justify-start sm:items-start w-full items-center sm:space-x-4 mb-3" >
             <div class="flex items-center mr-2 sm:mr-0 mb-1 border border-white rounded-lg lg:py-2 lg:px-2 py-2 px-2 lg:border-[2px]">
                 <x-text-input id="oneway" type="radio" name="TripType" value="OW" class="lg:w-4 lg:h-4 w-3 h-3 border-red-900 focus:red-900" />
                 <x-input-label for="oneway" class="block ms-2  lg:text-sm text-[10px] font-medium text-gray-50" value="ONE WAY" />
@@ -31,8 +31,8 @@
         <div id="autoSuggestDropdown" class="relative flex items-center bg-white rounded-2xl shadow-md xl:mb-0 mb-4">
             <i class="fas fa-plane-departure text-gray-600 ml-5"></i>
             <div class="">
-                <span class="text-gray-600 text-xs font-semibold mx-3">Flying From</span>
-                <x-text-input type="text" name="Origin" id="searchoriginAirport" placeholder="Select the Airport" class="bg-transparent text-xs w-full focus:outline-none focus:ring focus:ring-transparent font-semibold pl-3 text-gray-700 border-none py-0 z-10" autocomplete="off" />
+                <span class="text-gray-600 text-base font-semibold mx-3">Flying From</span>
+                <x-text-input type="text" name="Origin" id="searchoriginAirport" placeholder="Select the Airport" class="bg-transparent text-base w-full focus:outline-none focus:ring focus:ring-transparent font-semibold pl-3 text-gray-700 border-none py-0 z-10" autocomplete="off" />
                 <div id="autoSuggestList" class="absolute left-0 top-full mt-1 w-full bg-white border border-gray-300 rounded-md hidden shadow-lg z-20 max-h-96 overflow-y-scroll ">
 
                 </div>
@@ -44,8 +44,8 @@
         <div id="autoSuggestDropdowndestination" class="relative flex items-center bg-white rounded-2xl shadow-md xl:mb-0 mb-4">
             <i class="fas fa-plane-arrival text-gray-600 ml-5"></i> <!-- Font Awesome icon -->
             <div class="">
-                <span class="text-gray-600 text-xs font-semibold mx-3">Flying To</span> <!-- Label -->
-                <x-text-input name="Destination" type="text" id="search_destin_Airport" placeholder="Select the Airport" class="bg-transparent text-xs w-full focus:outline-none focus:ring focus:ring-transparent font-semibold pl-3 text-gray-700 border-none py-0 z-10" autocomplete="off" />
+                <span class="text-gray-600 text-base font-semibold mx-3">Flying To</span> <!-- Label -->
+                <x-text-input name="Destination" type="text" id="search_destin_Airport" placeholder="Select the Airport" class="bg-transparent text-base w-full focus:outline-none focus:ring focus:ring-transparent font-semibold pl-3 text-gray-700 border-none py-0 z-10" autocomplete="off" />
                 <div id="autoSuggestListdest" class="absolute left-0 top-full mt-1 w-full bg-white border border-gray-300 rounded-md hidden shadow-lg z-20 max-h-96 overflow-y-scroll">
                     <!-- Suggestions will be inserted here dynamically with JavaScript -->
                 </div>
@@ -57,8 +57,8 @@
         <div class="relative flex items-center bg-white rounded-2xl shadow-md xl:w-60 xl:mb-0 mb-4">
             <i class="fa-regular fa-calendar-days text-gray-600 ml-5"></i> <!-- Font Awesome icon -->
             <div class="">
-                <span class="text-gray-600 text-xs font-semibold mx-3">Depature</span> <!-- Label -->
-                <x-text-input datepicker autocomplete="off" name="DepartDate" type="text" id="DepartDate" class="bg-transparent text-xs w-full focus:outline-none focus:ring focus:ring-transparent font-semibold pl-3 text-gray-700 border-none py-0" placeholder="Select a date" />
+                <span class="text-gray-600 text-base font-semibold mx-3">Depature</span> <!-- Label -->
+                <x-text-input datepicker autocomplete="off" name="DepartDate" type="text" id="DepartDate" class="bg-transparent text-base w-full focus:outline-none focus:ring focus:ring-transparent font-semibold pl-3 text-gray-700 border-none py-0" placeholder="Select a date" />
             </div>
         </div>
 
@@ -66,8 +66,8 @@
         <div class="relative flex items-center bg-white rounded-2xl shadow-md xl:w-60 xl:mb-0 mb-4">
             <i class="fa-regular fa-calendar-days text-gray-600 ml-5"></i> <!-- Font Awesome icon -->
             <div class="">
-                <span class="text-gray-600 text-xs font-semibold mx-3">Return</span> <!-- Label -->
-                <x-text-input datepicker autocomplete="off" name="ArrivalDate" type="text" id="ReturnDate" class="bg-transparent text-xs w-full focus:outline-none focus:ring focus:ring-transparent font-semibold pl-3 text-gray-700 border-none py-0" placeholder="Select a date" />
+                <span class="text-gray-600 text-base font-semibold mx-3">Return</span> <!-- Label -->
+                <x-text-input datepicker autocomplete="off" name="ArrivalDate" type="text" id="ReturnDate" class="bg-transparent text-base w-full focus:outline-none focus:ring focus:ring-transparent font-semibold pl-3 text-gray-700 border-none py-0" placeholder="Select a date" />
             </div>
         </div>
 
@@ -75,9 +75,9 @@
         <div class="relative flex items-center bg-white rounded-2xl shadow-md xl:mb-0 mb-4">
             <i class="fa-solid fa-users text-gray-600 ml-5"></i>
             <div class="">
-                <span class="text-gray-600 text-xs font-semibold mx-3">Travelers</span> <!-- Label -->
-                <button type="button" id="dropdownDefault" data-dropdown-toggle="dropdown" class="bg-transperant focus:outline-none pl-2 focus:ring focus:ring-transparent font-semibold text-xs text-gray-700 border-none xl:w-auto w-full text-left">
-                    <x-text-input type="text" name="totalordercost" id="totalordercost" class="border-0 w-5 text-xs bg-white placeholder-gray-900 p-0" placeholder="1" disabled />
+                <span class="text-gray-600 text-base font-semibold mx-3">Travelers</span> <!-- Label -->
+                <button type="button" id="dropdownDefault" data-dropdown-toggle="dropdown" class="bg-transperant focus:outline-none pl-2 focus:ring focus:ring-transparent font-semibold text-base text-gray-700 border-none xl:w-auto w-full text-left">
+                    <x-text-input type="text" name="totalordercost" id="totalordercost" class="border-0 w-5 text-base bg-white placeholder-gray-900 p-0" placeholder="1" disabled />
                     Passengers
                 </button>
             </div>

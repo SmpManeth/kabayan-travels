@@ -2,14 +2,21 @@
     <!-- Body  -->
     <div class="m-0 p-0 ">
         <!-- Hero Section -->
-        <div class="bg-cover bg-center sm:h-[700px] h-auto p-2" style="background-image: url('{{ asset('images/bg-hero.png') }}');">
-            <div class="max-w-7xl mx-auto">
+        <div class="relative sm:h-[700px] h-auto p-2">
+            <!-- Video Background -->
+            <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover">
+                <source src="{{ asset('videos/Kabayan-Website-Cover-Video.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <!-- Overlay -->
+            <div class="absolute top-0 left-0 w-full h-full bg-black opacity-15 z-5"></div>
+            <div class="relative z-10 max-w-7xl mx-auto">
                 <!-- Hero Headings  -->
                 <div class="flex flex-col items-center justify-center py-12">
-                    <!-- Sub Heading Componenet  -->
-                    <x-italic-subheading class="text-3xl sm:text-4xl font-medium" value="Explore the Philippines" />
+                    <!-- Sub Heading Component -->
+                    <x-italic-subheading class="text-3xl sm:text-6xl font-medium" value="Explore the Philippines" />
                     <!-- Heading  -->
-                    <h1 class="sm:text-6xl text-4xl font-Abhaya font-extrabold text-center text-black sm:pt-10 pt-4 leading-tight ">
+                    <h1 class="sm:text-6xl text-4xl font-Abhaya font-extrabold text-center text-white sm:pt-10 pt-4 leading-tight">
                         Your Dream
                         <span class="gradient-text">Philippines</span> <br> Holiday Starts <br>
                         Here!
@@ -21,8 +28,8 @@
                     <x-flight-search-form />
                 </div>
 
-                <!-- Hero Bottom Section  -->
-                <div class="flex text-center  justify-between mt-16 ">
+                <!-- Hero Bottom Section -->
+                <div class="flex text-center text-lg justify-between mt-16 text-white">
                     <div>
                         <i class="fa-solid fa-certificate" style="color: #ff0d02;"></i>
                         <span>Easy & Secure Booking</span>
@@ -38,6 +45,7 @@
                 </div>
             </div>
         </div>
+
 
 
         <!-- Language Stripe  -->
@@ -121,7 +129,7 @@
 
 
         <!-- Why Book With Us -->
-        <div class="sm:mt-[-250px] mt-[-180px] bg-white">
+        <div class="sm:mt-[-500px] mt-[-400px] bg-white">
             <!-- Headings -->
             <div class="flex flex-col items-center justify-center pt-32">
                 <!-- Sub Heading Component -->
@@ -134,27 +142,27 @@
 
                     <div class="grid lg:gap-10 gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                         <div class="text-center ">
-                            <img class="mx-auto mb-4 w-20 h-20 rounded-lg" src="https://bluelotusvacations.uk/images/refund_policy.webp"
+                            <img class="mx-auto mb-4 w-20 h-20 rounded-lg" src="{{ asset('images/Refund-Policy-01.png') }}"
                                 alt="Bonnie Avatar">
 
                             <h5 class="mb-1 text-2xl font-bold tracking-tight text-gray-900  font-playfairDisplay">
                                 Refund Policy</h5>
 
-                            <span>As a customer-oriented travel agency we stand out in regard to the refund policy. We
+                            <span class="">As a customer-oriented travel agency we stand out in regard to the refund policy. We
                                 have a hassle-free refund procedure to make life easy for you. </span>
 
                         </div>
 
                         <div class="text-center ">
                             <img class="mx-auto mb-4 w-20 h-20 rounded-lg"
-                                src="https://bluelotusvacations.uk/images/refund_policy.webp" alt="Bonnie Avatar">
+                                src="{{ asset('images/Customer-Support.png') }}" alt="Bonnie Avatar">
 
                             <h5 class="mb-1 text-2xl font-bold tracking-tight text-gray-900  font-playfairDisplay">Local Lingo</h5>
                             <span>Whether you speak Tagalog, Cebuano ,Ilocano, Bikol, or Bisaya Our experienced consultants will guide you through.</span>
                         </div>
 
                         <div class="text-center ">
-                            <img class="mx-auto mb-4 w-20 h-20 rounded-lg" src="https://bluelotusvacations.uk/images/refund_policy.webp"
+                            <img class="mx-auto mb-4 w-20 h-20 rounded-lg" src="{{ asset('images/Reliability.png') }}"
                                 alt="Bonnie Avatar">
 
                             <h5 class="mb-1 text-2xl font-bold tracking-tight text-gray-900  font-playfairDisplay">
@@ -167,7 +175,7 @@
 
                         <div class="text-center ">
                             <img class="mx-auto mb-4 w-20 h-20 rounded-lg"
-                                src="https://bluelotusvacations.uk/images/refund_policy.webp" alt="Bonnie Avatar">
+                                src="{{ asset('images/Local-Travel-Agent.png') }}" alt="Bonnie Avatar">
 
                             <h5 class="mb-1 text-2xl font-bold tracking-tight text-gray-900  font-playfairDisplay">Local
                                 Travel Agent</h5>
@@ -210,9 +218,9 @@
                 <!-- Heading -->
                 <h1 class="sm:text-6xl text-4xl font-Abhaya font-extrabold text-center text-black leading-tight mt-5">
                     Holiday Destinations <br>
-                    available Worldwide
+                    Worldwide
                 </h1>
-                <p class="p-4 sm:w-6/12 text-center font-normal text-sm">Our holidays promise a haven of relaxation and adventure, where the worries of planning and budgeting melt away. Picture yourself unwinding on sun-drenched beaches, savoring exquisite cuisine, and indulging in a wealth of activities all included in the package. At Kabayan Flights, we believe that your only job on vacation should be to enjoy every moment to the fullest. Embark on a journey where luxury meets convenience, and every experience is a celebration of indulgence. Join us on a holiday where all you need to do is bask in the joy of the moment, surrounded by the beauty and comfort that define our Holiday getaways. </p>
+                <p class="p-4 sm:w-6/12 text-center font-normal text-base">Our holidays promise a haven of relaxation and adventure, where the worries of planning and budgeting melt away. Picture yourself unwinding on sun-drenched beaches, savoring exquisite cuisine, and indulging in a wealth of activities all included in the package. At Kabayan Flights, we believe that your only job on vacation should be to enjoy every moment to the fullest. Embark on a journey where luxury meets convenience, and every experience is a celebration of indulgence. Join us on a holiday where all you need to do is bask in the joy of the moment, surrounded by the beauty and comfort that define our Holiday getaways. </p>
             </div>
 
             <!-- Cards  -->
@@ -222,16 +230,17 @@
                         <div class="container mx-auto">
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-4">
 
-                                <x-holiday-destination description="This is a Sample Description" title="This is teh Title hutto" image="https://img.freepik.com/free-photo/vertical-high-angle-shot-white-buildings-santorini-greece_181624-31643.jpg?t=st=1728375392~exp=1728378992~hmac=c9d9fe99d66d6adab49624fe7dd90b8a8b8834661e5bc424d1a3637a6b8aa8d9&w=740" />
-                                <x-holiday-destination description="This is a Sample Description" title="This is teh Title hutto" image="https://img.freepik.com/free-photo/vertical-high-angle-shot-white-buildings-santorini-greece_181624-31643.jpg?t=st=1728375392~exp=1728378992~hmac=c9d9fe99d66d6adab49624fe7dd90b8a8b8834661e5bc424d1a3637a6b8aa8d9&w=740" />
-                                <x-holiday-destination description="This is a Sample Description" title="This is teh Title hutto" image="https://img.freepik.com/free-photo/vertical-high-angle-shot-white-buildings-santorini-greece_181624-31643.jpg?t=st=1728375392~exp=1728378992~hmac=c9d9fe99d66d6adab49624fe7dd90b8a8b8834661e5bc424d1a3637a6b8aa8d9&w=740" />
-                                <x-holiday-destination description="This is a Sample Description" title="This is teh Title hutto" image="https://img.freepik.com/free-photo/vertical-high-angle-shot-white-buildings-santorini-greece_181624-31643.jpg?t=st=1728375392~exp=1728378992~hmac=c9d9fe99d66d6adab49624fe7dd90b8a8b8834661e5bc424d1a3637a6b8aa8d9&w=740" />
+                                <a href="https://www.bluelotusvacations.uk/holidays/holidays-to-disneyland" target="_blank"><x-holiday-destination description="Magical Paris" title="Disneyland" image="{{asset('images/disneyland.jpg')}}" /></a>
+                                 <a href="https://www.bluelotusvacations.uk/holidays/holidays-to-iceland" target="_blank"><x-holiday-destination description="land of Fire & Ice" title="Iceland" image="{{asset('images/iceland.jpg')}}" /></a>
+                                 <a href="https://www.bluelotusvacations.uk/holidays/holidays-to-krakow" target="_blank"><x-holiday-destination description="Stunning Krakow" title="Krakow" image="{{asset('images/krakow.jpg')}}" /></a>
+                                 <a href="https://www.bluelotusvacations.uk/holidays/holidays-to-bulgaria" target="_blank"><x-holiday-destination description="Bansko Ski Escape" title="Bulgaria" image="{{asset('images/bulgaria.jpg')}}" /></a>
 
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
+            
             <!-- Call Now Button (Centered) -->
             <div class="flex justify-center mt-5">
                 <button type="button" class="text-white bg-button-gradient focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-3 text-center">
@@ -249,6 +258,8 @@
                 <x-italic-subheading class="text-4xl font-medium" value="We Care for you" />
                 <!-- Heading -->
                 <h1 class="text-6xl font-Abhaya font-extrabold text-center text-black leading-tight ">Save on your Flights Now</h1>
+                <p class="p-4 sm:w-6/12 text-center font-normal text-base">Unlock exclusive travel discounts for NHS and Blue Light Card members across the UK! We celebrate your dedication and hard work by offering special deals on flights, hotels, and holiday packages. Whether you're planning a well-deserved getaway or a weekend retreat, our tailored discounts make it easier and more affordable. Enjoy breathtaking destinations, relaxing accommodations, and unforgettable experiences, all while taking advantage of your membership perks. Join us in exploring the world with savings that reflect your commitment to serving others. Your next adventure awaits—because you deserve it!</p>
+
             </div>
 
             <!-- Cards  -->
@@ -280,18 +291,19 @@
             <!-- Cards  -->
             <div class="flex mx-auto flex-wrap w-fit gap-4 max-w-7xl mt-10 just p-4">
                 <div class="mx-auto">
-                    <iframe class="sm:w-[250px] sm:h-[450px] w-[160px] h-[290px] rounded-lg pointer-events-none"
-                        src="https://www.youtube.com/embed/n-8rCcaAg1M?autoplay=1&controls=0&loop=1&playlist=n-8rCcaAg1M&mute=1&modestbranding=1&rel=0"
-                        title="YouTube video"
-                        frameborder="0"
-                        allow="autoplay; encrypted-media"
-                        allowfullscreen>
-                    </iframe>
+                   
+                        <iframe class="sm:w-[250px] sm:h-[450px] w-[160px] h-[290px] rounded-lg pointer-events-none"
+                            src="https://www.youtube.com/embed/n-8rCcaAg1M?autoplay=1&controls=0&loop=1&playlist=n-8rCcaAg1M&mute=1&modestbranding=1&rel=0"
+                            title="YouTube video"
+                            frameborder="0"
+                            allow="autoplay; encrypted-media"
+                            allowfullscreen>
+                        </iframe>
                 </div>
 
                 <div class="mx-auto">
                     <iframe class="sm:w-[250px] sm:h-[450px] w-[160px] h-[290px] rounded-lg pointer-events-none"
-                        src="https://www.youtube.com/embed/n-8rCcaAg1M?autoplay=1&controls=0&loop=1&playlist=n-8rCcaAg1M&mute=1&modestbranding=1&rel=0"
+                        src="https://www.youtube.com/embed/n5ok9C4YgMQ?autoplay=1&controls=0&loop=1&playlist=n5ok9C4YgMQ&mute=1&modestbranding=1&rel=0"
                         title="YouTube video"
                         frameborder="0"
                         allow="autoplay; encrypted-media"
