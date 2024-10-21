@@ -5,14 +5,14 @@
 
         <div class="w-1/5">
             <a href="" class="text-white hover:underline " target="_blank">
-                <i class="pr-2 fa-solid fa-envelope" style="color: #ffffff;" aria-hidden="true"></i>
+                <i class="pr-2 fa-solid fa-phone" style="color: #ffffff;" aria-hidden="true"></i>
                 0203-026-9529
             </a>
         </div>
 
         <div class="w-2/5">
             <a href="" class="text-white hover:underline " target="_blank">
-                <i class="pr-2 fa-solid fa-phone" style="color: #ffffff;" aria-hidden="true"></i>
+                <i class="pr-2 fa-solid fa-envelope " style="color: #ffffff;" aria-hidden="true"></i>
                 info@kabayanflights.com
             </a>
         </div>
