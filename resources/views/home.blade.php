@@ -218,7 +218,7 @@
                 <!-- Heading -->
                 <h1 class="sm:text-6xl text-4xl font-Abhaya font-extrabold text-center text-black leading-tight mt-5">
                     Holiday Destinations <br>
-                     Worldwide
+                    Worldwide
                 </h1>
                 <p class="p-4 sm:w-6/12 text-center font-normal text-base">Our holidays promise a haven of relaxation and adventure, where the worries of planning and budgeting melt away. Picture yourself unwinding on sun-drenched beaches, savoring exquisite cuisine, and indulging in a wealth of activities all included in the package. At Kabayan Flights, we believe that your only job on vacation should be to enjoy every moment to the fullest. Embark on a journey where luxury meets convenience, and every experience is a celebration of indulgence. Join us on a holiday where all you need to do is bask in the joy of the moment, surrounded by the beauty and comfort that define our Holiday getaways. </p>
             </div>
@@ -230,10 +230,10 @@
                         <div class="container mx-auto">
                             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-4">
 
-                                <x-holiday-destination description="Magical Paris" title="Disneyland" image="{{asset('images/disneyland.jpg')}}" />
-                                <x-holiday-destination description="land of Fire & Ice" title="Iceland" image="{{asset('images/iceland.jpg')}}" />
-                                <x-holiday-destination description="Stunning Krakow" title="Krakow" image="{{asset('images/krakow.jpg')}}" />
-                                <x-holiday-destination description="Bansko Ski Escape" title="Bulgaria" image="{{asset('images/bulgaria.jpg')}}" />
+                                <a href="https://www.bluelotusvacations.uk/holidays/holidays-to-disneyland" target="_blank"><x-holiday-destination description="Magical Paris" title="Disneyland" image="{{asset('images/disneyland.jpg')}}" /></a>
+                                 <a href="https://www.bluelotusvacations.uk/holidays/holidays-to-iceland" target="_blank"><x-holiday-destination description="land of Fire & Ice" title="Iceland" image="{{asset('images/iceland.jpg')}}" /></a>
+                                 <a href="https://www.bluelotusvacations.uk/holidays/holidays-to-krakow" target="_blank"><x-holiday-destination description="Stunning Krakow" title="Krakow" image="{{asset('images/krakow.jpg')}}" /></a>
+                                 <a href="https://www.bluelotusvacations.uk/holidays/holidays-to-bulgaria" target="_blank"><x-holiday-destination description="Bansko Ski Escape" title="Bulgaria" image="{{asset('images/bulgaria.jpg')}}" /></a>
 
                             </div>
                         </div>
@@ -290,13 +290,14 @@
             <!-- Cards  -->
             <div class="flex mx-auto flex-wrap w-fit gap-4 max-w-7xl mt-10 just p-4">
                 <div class="mx-auto">
-                    <iframe class="sm:w-[250px] sm:h-[450px] w-[160px] h-[290px] rounded-lg pointer-events-none"
-                        src="https://www.youtube.com/embed/n-8rCcaAg1M?autoplay=1&controls=0&loop=1&playlist=n-8rCcaAg1M&mute=1&modestbranding=1&rel=0"
-                        title="YouTube video"
-                        frameborder="0"
-                        allow="autoplay; encrypted-media"
-                        allowfullscreen>
-                    </iframe>
+                   
+                        <iframe class="sm:w-[250px] sm:h-[450px] w-[160px] h-[290px] rounded-lg pointer-events-none"
+                            src="https://www.youtube.com/embed/n-8rCcaAg1M?autoplay=1&controls=0&loop=1&playlist=n-8rCcaAg1M&mute=1&modestbranding=1&rel=0"
+                            title="YouTube video"
+                            frameborder="0"
+                            allow="autoplay; encrypted-media"
+                            allowfullscreen>
+                        </iframe>
                 </div>
 
                 <div class="mx-auto">
